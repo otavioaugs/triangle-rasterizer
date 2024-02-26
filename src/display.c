@@ -1,6 +1,4 @@
 #include "display.h"
-#include <SDL2/SDL_render.h>
-#include <SDL2/SDL_timer.h>
 
 static SDL_Window   *window   = NULL;
 static SDL_Renderer *renderer = NULL;

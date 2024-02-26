@@ -1,3 +1,5 @@
+all: build run clean
+
 build:
 	gcc -Wall ./src/*.c ./lib/libfixmath/*.c `sdl2-config --libs --cflags` -lm -o rasterizer
 

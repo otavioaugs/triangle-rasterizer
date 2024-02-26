@@ -10,7 +10,7 @@ static uint32_t *framebuffer = NULL;
 static SDL_Texture *framebuffer_texture = NULL;
 
 static uint16_t window_width  = 800;
-static uint16_t window_height = 800;
+static uint16_t window_height = 600;
 
 bool create_window(void) {
   if (SDL_Init(SDL_INIT_VIDEO) != 0) {
